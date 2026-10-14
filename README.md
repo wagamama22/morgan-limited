@@ -1,4 +1,4 @@
-# Morgan Limited :  Web Development Learning Platform
+# Morgan Limited :  Web Development Learning Platform (Academic Project)
 ### A responsive, multi-page front-end project by Morgan Ofodum
 
 A practical front-end development project demonstrating core JavaScript, HTML, and CSS competencies through real-world problem solving, interactive user experiences, and clean, maintainable code.
