@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles/components/contactForm.css" />
+    <link rel="stylesheet" href="styles/components/contactBanner.css" />
+    <link rel="stylesheet" href="styles/components/foot.css" />
+    <link rel="stylesheet" href="styles/components/final.css" />
+    <link rel="stylesheet" href="styles/components/header.css" />
+    <link rel="stylesheet" href="styles/components/intro.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Contact: Morgan Ltd</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark container header">
+      <div class="container container-fluid">
+        <img
+          src="images/logo.png"
+          class="navbar-brand header__logo"
+          alt="logo"
+          id="logo"
+        /><a id="logo-anch" class="navbar-brand" href="#"
+          ><strong>Morgan Limited</strong></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mNavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://mymorgan.morganugochukwu.com/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://mymorgan.morganugochukwu.com/gallery.html"
+                >Gallery</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://mymorgan.morganugochukwu.com/contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section class="contactBanner container gapSpace">
+        <h2 class="contactBanner__h2">
+          Connect With Us And Keep Your Learning Moving Forward
+        </h2>
+        <p>
+          Have questions about learning web development or need guidance on your
+          coding journey? Reach out anytime. I’m here to help you build skills,
+          solve problems, and grow confidently as a developer.
+        </p>
+      </section>
+      <section class="contactForm container gapSpace">
+        <div>
+          <form
+            action="mailto:gg@gmail.com"
+            method="post"
+            enctype="text/plain"
+            class="contactForm__form"
+          >
+            <br /><br />
+            <label class="contactForm__formLabel">Full Name</label>
+            <br />
+            <input type="text" class="contactForm__other" id="fName" />
+            <br /><br />
+            <label class="contactForm__formLabel">Email</label>
+            <br />
+            <input type="email" class="contactForm__other" id="email" />
+            <br /><br />
+            <label class="contactForm__formLabel">Phone Number</label>
+            <br />
+            <input
+              type="tel"
+              placeholder="12345678"
+              class="contactForm__other"
+              id="pNumber"
+            />
+            <br /><br />
+            <label class="contactForm__formLabel">Comment</label>
+            <br />
+            <textarea
+              id="message"
+              placeholder="Write your comment here"
+            ></textarea>
+            <br /><br />
+            <input
+              type="submit"
+              value="Submit"
+              id="pSubmit"
+              onclick="return validateForm();"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="container gapSpace foot">
+      &copy; 2025 Morgan Limited. All rights reserved. This website was designed
+      by Morgan Ofodum
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

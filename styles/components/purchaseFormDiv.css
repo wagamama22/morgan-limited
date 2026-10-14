@@ -1,0 +1,13 @@
+.purchaseFormDiv{
+  background-color: oklch(96.7% 0.003 264.542);
+  color: black;
+  border-radius: solid 10rem oklch(96.7% 0.003 264.542);
+  width: 50%;
+  display: block;
+}
+.purchaseFormDiv__other{
+  font-weight: 500;
+}
+#pInfo{
+  text-decoration: solid 2px underline;
+}

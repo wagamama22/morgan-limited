@@ -1,0 +1,73 @@
+.final_form{
+  margin-left: 1%;
+  /* background-color: chartreuse; */
+}
+.final__formLabel{
+  font-weight: 500;
+}
+.final__p1{
+  text-align: center;
+  font-weight: 600;
+}
+#mTrain,#pfNumber,#pfAddress{
+  width: 400px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 0.5rem;
+}
+#pfSubmit{
+  margin-left: 20%;
+  width: 100px;
+  height: 50px;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+/* xs */
+/* @media (min-width: 475px){
+  .container{
+    max-width: 475px;
+  }
+} */
+/* custom */
+/* @media (min-width: 576px){
+  .container{
+    max-width: 576px;
+  }
+} */
+/* sm */
+/* @media (min-width: 640px){
+ #mTrain,#pfNumber,#pfAddress{
+  width: 400px;
+  font-size: 16px;
+}
+#pfSubmit{
+  margin-left: 15%;
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+}
+} */
+/* md */
+@media (min-width: 768px){
+  #mTrain,#pfNumber,#pfAddress{
+  width: 600px;
+}
+}
+/* lg */
+@media (min-width: 1024px){
+  #mTrain,#pfNumber,#pfAddress{
+  width: 800px;
+}
+#pfSubmit{
+  margin-left: 30%;
+}
+}
+/* xl */
+/* @media (min-width: 1280px){
+  .container{
+    max-width: 1280px;
+  }
+} */

@@ -1,0 +1,93 @@
+.contactForm__form{
+  margin-left: 4%;
+  /* background-color: chartreuse; */
+}
+.contactForm__formLabel{
+  font-weight: 500;
+}
+.contactForm__p1{
+  text-align: center;
+  font-weight: 600;
+}
+.contactForm__other{
+  width: 30rem;
+  height: 2.5rem;
+  font-size: 1em;
+  border-radius: 0.5rem;
+}
+
+#pSubmit{
+  margin-left: 37%;
+  width: 6.25rem;
+  height: 3.13rem;
+  font-size: 1.125em;
+  background-color: black;
+  color: white;
+  border-radius: 0.5rem;
+}
+#message{
+  width: 30rem;
+  height: 25rem;
+  border-radius: 0.5rem;
+}
+
+/* xs */
+@media (min-width: 475px){
+  .contactForm__other{
+  width: 26rem;
+}
+#message{
+  width: 26rem;
+}
+}
+/* custom */
+@media (min-width: 576px){
+  #pSubmit{
+  margin-left: 31%;
+}
+}
+/* sm */
+@media (min-width: 640px){
+  #pSubmit{
+  margin-left: 29%;
+}
+}
+/* md */
+@media (min-width: 768px){
+  .contactForm__form{
+  margin-left: 15%;
+}
+#pSubmit{
+  margin-left: 30%;
+}
+}
+/* custom */
+@media (min-width: 992px){
+.contactForm__form{
+  margin-left: 29%;
+}
+  #pSubmit{
+  margin-left: 22%;
+}
+}
+/* lg */
+@media (min-width: 1024px){
+ .contactForm__other{
+  width: 30rem;
+}
+.contactForm__form{
+  margin-left: 27%;
+}
+#message{
+  width: 30rem;
+}
+#pSubmit{
+  margin-left: 20%;
+}
+}
+/* xl */
+/* @media (min-width: 1280px){
+  .container{
+    max-width: 1280px;
+  }
+} */
