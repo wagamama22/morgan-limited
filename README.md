@@ -59,7 +59,7 @@ Morgan Limited is a JavaScript focused learning and development project designed
 
 •	User-focused interface design
 
-Software Engineering Practices
+#### Software Engineering Practices
 
 •	Clean code principles
 
